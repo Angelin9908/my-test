@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Arial;
+}
+
+/******************generales***************/
+.ancho{
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.ancho2{
+  width: 85%;
+  margin-left: 15%;
+  text-align: center;
+}
+.imagen{
+  display: inline-block;
+  width: 64%;
+  position: absolute;
+  left: 0%;
+  height: 100%;
+}
+.imagen img{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  padding: 0% 25%;
+}
+.login{
+  display: inline-block;
+  width: 35.6%;
+  height: 100%;
+  background-color: #08CCBF;
+  text-align: center;
+  position: absolute;
+  right: 0%;
+}
+.login h2{
+  color: #0093B6;
+  margin: 5%;
+  font-size: 150%;
+}
+.login form{
+  width: 80%;
+  border-radius: 10px;
+  background-color: #eee;
+  box-shadow: 0px 0px 3px #666;
+  margin: auto;
+  padding: 3%;
+  position: relative;
+  top: 30%;
+}
+.login input[type="text"], .login input[type="password"]{
+  border: 1px solid #999;
+  margin-bottom: 3%;
+  color: #666;
+  padding: 2%;
+  width: 90%;
+  border-radius: 10px;
+}
+.login input[type="submit"]{
+  margin: 7%;
+  border: none;
+  color: white;
+  background-color: #0093B6;
+  padding: 2% 7%;
+  border-radius: 5px;
+}
+/******************panel***************/
+.logo{
+  width: 25%;
+  display: inline-block;
+  padding: 2px;
+}
+.logo img{
+  width: 100%;
+}
+.sesion{
+  display: inline-block;
+  width: 74.5%;
+  text-align: right;
+  vertical-align: 20%;
+}
+.sesion a{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.sesion a img{
+  display: inline-block;
+}
+.menu{
+  width: 15%;
+  height:100%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: 85%;
+  position: absolute;
+  left: 0%;
+  background-color: #08CCBF;
+}
+.menu a{
+  display:block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 20px 10px;
+  font-size: 110%;
+}
+.menu a:hover{
+  background-color: #03e2d3;
+  color: #0093B6;
+  font-size: 120%;
+}
+.contenedor_verde{
+  background-color: #08CCBF;
+}
+.cont_fecha{
+  padding: 7px 5px;
+  text-align: right;
+}
+.cont_fecha p{
+  display: inline-block;
+  padding: 0px 1px;
+  color: white;
+}
+.contenedor1{
+  background-color: #eee;
+}
+.cont_panel{
+  display: inline-block;
+  width: 85%;
+  position: absolute;
+  right: 0%;
+}
+.cont_panel h2{
+  position: relative;
+  padding: 20%;
+  color: #0093B6;
+  font-size: 200%;  
+  text-align: center;
+}
+.cont_panel h3{
+  position: relative;
+  padding: 1%;
+  color: #0093B6;
+  font-size: 200%;  
+  text-align: center;
+  margin: auto;
+}
+
+/* buscador*/
+button {
+  border: none;
+  width: auto;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+}
+.form_buscar{
+  width: 30%;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+}
+.form_buscar input[type="search"]{
+  width: 300px;
+  padding: 9px;
+  border: 1px solid #0093B6;
+  border-radius: 5px;
+  color: #666;
+}
+.form_buscar [type="submit"]{
+ vertical-align: -5px;
+}
+.fijo{
+  display: inline-block;
+  color: #0093B6;  
+  margin-left: 9px;
+  width: 20%;
+  vertical-align: top;
+  padding: 5px 0px;
+}
+.fijo p{
+  display: inline-block;
+  vertical-align: middle;
+}
+.monto{
+  color: #666;
+  border-radius: 5px;
+  border: 1px solid #0093B6;
+  padding: 4px;
+  width: 37%;  
+  height: 25px;
+  display: inline-block;
+  margin-left: 3px;
+}
+.form_pago{
+  width: 45.5%;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top; 
+  text-align: right;
+}
+.form_pago p{
+  display: inline-block;
+  color: #0093B6;
+  margin-right: 18px;
+}
+.form_pago input[type="date"]{
+  width: 180px;
+  padding: 5px;
+  border: 1px solid #0093B6;
+  border-radius: 5px;
+  color: #666;
+  font-family: Arial;    
+  margin-left: 4px;
+}
+.form_pago [type="submit"]{
+  background-color: #0093B6;
+  color: white;
+  padding: 8px 20px;
+  margin-left: 10px;
+}
+.tabla_pagos{
+  width: 96%;
+  text-align: center;
+  margin-left: 0.5%;
+  margin-top: 25px;
+}
+table{
+  width: 100%;
+  border-spacing: 0px;
+  margin: 10px 0px;
+}
+.tabla_pagos th{
+  background-color: #08CCBF;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  border: 0.5px solid #eee;
+}
+.tabla_pagos .pago_hecho{
+  width: 30px;
+}
+.tabla_pagos .nombre_tabla{
+  width: 450px;
+}
+.azul{
+  background-color: #00ffee50;
+  border: 0.5px solid #eee;
+}
+.blanco{
+  background-color: white;
+  border: 0.5px solid #eee;
+}
